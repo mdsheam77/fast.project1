@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+/* <!--heade part start-->*/
+header{
+    width: 100%;
+    background-color: rgba(33, 117, 143, 0.534);
+    color: #ffffff;
+    display: flex;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar ul{
+    list-style: none;
+
+}
+
+.navbar ul li{
+    background-color: #494949;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ddd;
+    text-align: center;
+}
+/*.navbar ul li a:hover{background-color:red 
+    amra aevabe likhlay sudhu likjhar color ta change hobe */ 
+
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+
+.navbar ul li:hover > ul{
+    display: block;
+}
+/*<!--Header part End-->*/
+
+/*Form Start*/
+.form1{
+    background-color: rgb(216, 109, 159);
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin: 40px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-bottom: 30px;
+    border-radius: 1pc;
+    
+}
+
+.form1 input{
+    padding: 1px 30px;
+    border-color: rgb(23, 63, 148);
+    border-radius: 50px;
+}
+
+.form1 .btn{
+    font-weight: bold;
+}
+
+
+/*Form End*/
+
+
+
+/*<!--Footer part start-->*/
+footer{
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    background-color: rgb(25, 88, 88);
+    color: #ddd;
+    margin-top: 30px;
+}
+.fd h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 50px;
+}
+
+.fdp p{
+width: 700px;
+text-align: center;
+margin: 0 auto;
+position: relative;
+top: -30px;
+}
+
+.icon i{
+    font-size: 40px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+    color: #ddd;
+}
+
+
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+/*<!--Footer part End-->*/
